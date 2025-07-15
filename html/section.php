@@ -1,8 +1,35 @@
-<section id="quienes-somos" class="about-section">
+<section class="compromisos-slider">
     <h2>¿Quiénes Somos?</h2>
-    <p>Relove Bloom es un emprendimiento comprometido con el medio ambiente y el bienestar emocional. Nos especializamos en la creación de flores eternas elaboradas con materiales reciclados como papel periódico y botellas plásticas.</p>
-    <p>Buscamos ofrecer una alternativa eco-amigable para expresar sentimientos, contribuyendo al consumo responsable y fortaleciendo los vínculos humanos a través de nuestros productos personalizados y sostenibles.</p>
+
+    <div class="slider-wrapper">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="../assets/img/empatia.jpg" alt="Empatía">
+                <p>Empatía: Personalizamos productos para conectar con los sentimientos de nuestros clientes.</p>
+            </div>
+            <div class="slide">
+                <img src="../assets/img/sostenibilidad.jpg" alt="Sostenibilidad">
+                <p>Sostenibilidad: Solo usamos materiales reciclados y procesos eco-amigables.</p>
+            </div>
+            <div class="slide">
+                <img src="../assets/img/innovacion.jpg" alt="Innovación">
+                <p>Innovación: Diseños únicos y soluciones creativas en cada detalle.</p>
+            </div>
+            <div class="slide">
+                <img src="../assets/img/responsabilidad.jpg" alt="Responsabilidad">
+                <p>Responsabilidad: Puntualidad y cumplimiento en cada entrega.</p>
+            </div>
+            <div class="slide">
+                <img src="../assets/img/respeto.jpg" alt="Respeto">
+                <p>Respeto: Comprometidos con la diversidad y la inclusión.</p>
+            </div>
+        </div>
+
+        <button class="prev">⟨</button>
+        <button class="next">⟩</button>
+    </div>
 </section>
+
 
 <section class="valores-section">
     <h2>Nuestros Valores</h2>
@@ -13,4 +40,17 @@
         <li><strong>Responsabilidad:</strong> Compromiso y puntualidad en cada entrega.</li>
         <li><strong>Respeto:</strong> Inclusión y ética en todo nuestro proceso.</li>
     </ul>
+</section>
+
+<section class="product-slider">
+    <h2>Nuestros Productos</h2>
+    <div class="slider-container">
+        <div class="slide"><img src="../assets/img/producto1.jpg" alt="Producto 1"></div>
+        <div class="slide"><img src="../assets/img/producto2.jpg" alt="Producto 2"></div>
+    <!-- 
+        <div class="slide"><img src="../assets/img/producto3.jpg" alt="Producto 3"></div>
+        <div class="slide"><img src="../assets/img/producto4.jpg" alt="Producto 4"></div>
+        <div class="slide"><img src="../assets/img/producto5.jpg" alt="Producto 5"></div> 
+    -->
+    </div>
 </section>

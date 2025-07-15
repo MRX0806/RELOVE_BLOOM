@@ -7,15 +7,14 @@
 
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/section.css">
 </head>
     
 <body>
     <?php include('header.php'); ?>
-    <?php include('nav.php'); ?>
 
     <main>
-        
+        <?php include('section.php'); ?>
     </main>
 
 

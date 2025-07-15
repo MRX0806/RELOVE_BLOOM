@@ -1,10 +1,18 @@
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+        <li><a href="section.php">Productos</a></li>
+        <li><a href="contacto.php">Contacto</a></li>
+    </ul>
+</nav>
+
 <header class="main-header">
-    <video autoplay muted loop id="header-video">
-        <source src="../assets/videos/header.mp4" type="video/mp4">
-        Tu navegador no soporta la etiqueta de video.
-    </video>
-    <div class="header-content">
-        <h1>Relove Bloom</h1>
-        <p>Flores Eternas que cuentan tu historia</p>
+    <div class="video-container">
+        <video autoplay muted loop id="header-video">
+            <source src="../assets/videos/header.mp4" type="video/mp4">
+        </video>
+        <div class="fondo-velo"></div>
     </div>
 </header>

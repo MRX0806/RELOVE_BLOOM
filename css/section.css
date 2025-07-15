@@ -1,22 +1,65 @@
-.about-section, .valores-section {
-    padding: 40px 20px;
+
+.compromisos-slider {
+    text-align: center;
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+.compromisos-slider h2 {
+    margin-bottom: 20px;
+    color: #ff0076;
+    font-size: 50px;
+}
+
+.compromisos-slider p {
+    margin-bottom: 20px;    
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
 }
 
-.about-section h2, .valores-section h2 {
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    flex: 0 0 100%;
+    max-width: 100%;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.valores-section ul {
-    list-style: none;
-    padding: 0;
+.slide img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
 }
 
-.valores-section li {
-    margin-bottom: 15px;
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(255, 149, 193);
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
 }
