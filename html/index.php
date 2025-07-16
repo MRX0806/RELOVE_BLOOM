@@ -17,7 +17,7 @@
         <?php include('section.php'); ?>
     </main>
 
-
+    <script src="../js/section.js"></script>
 </body>
 </html>
 
