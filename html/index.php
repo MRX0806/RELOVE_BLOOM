@@ -14,7 +14,9 @@
     <?php include('header.php'); ?>
 
     <main>
-        <?php include('section.php'); ?>
+        <?php include('section_quienesSomos.php'); ?>
+        <?php include('section_productos.php'); ?>
+        <?php include('footer.php'); ?>
     </main>
 
     <script src="../js/section.js"></script>

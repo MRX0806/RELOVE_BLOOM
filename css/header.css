@@ -4,7 +4,7 @@
     height: 6.6%;
     width: 100%;
     background-color: rgba(253, 153, 213, 0.836);
-    z-index: 1;
+    z-index: 5;
 }
 .main-nav ul {
     list-style: none;

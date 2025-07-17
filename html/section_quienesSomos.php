@@ -1,4 +1,4 @@
-<section class="compromisos-slider">
+<section class="compromisos-slider" id='nosotros-section'>
     <div class="video-container-section">
         <video autoplay muted loop id="quienesSomos-video">
             <source src="../assets/videos/quienes_somos.mp4" type="video/mp4">
